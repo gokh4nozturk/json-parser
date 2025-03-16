@@ -1,0 +1,22 @@
+{
+    "name": "John",
+    "age": 30,
+    "is_student": false,
+    "hobbies": ["coding", "reading", "gaming"],
+    "address": {
+        "city": "Istanbul",
+        "country": "Turkey"
+    },
+    "projects": [
+        {
+            "name": "JSON Parser",
+            "language": "Rust",
+            "status": "completed"
+        },
+        {
+            "name": "Web App",
+            "language": "JavaScript",
+            "status": "in-progress"
+        }
+    ]
+} 
