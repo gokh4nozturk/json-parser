@@ -31,9 +31,14 @@ cargo run
 
 ## Project Structure
 
-- `JsonValue`: Enum representing JSON data
-- `Lexer`: Structure that separates JSON text into tokens
-- `Parser`: Structure that converts tokens to JSON data structure
+The project follows a modular architecture:
+
+- `src/json.rs`: Defines the `JsonValue` enum representing JSON data
+- `src/error.rs`: Contains error types and result type
+- `src/lexer.rs`: Tokenizes JSON text into tokens
+- `src/parser.rs`: Converts tokens to JSON data structure
+- `src/lib.rs`: Exports the library functionality
+- `src/main.rs`: Command-line interface
 
 ## Rust Concepts Learned
 
@@ -44,6 +49,8 @@ cargo run
 - Trait implementation
 - Generics
 - Iterator usage
+- Modular project organization
+- Library and binary crates
 
 ## Tests
 
@@ -60,4 +67,5 @@ This project was developed as part of the Rust learning process. Features that c
 - JSON data formatting (pretty printing)
 - Writing JSON data to file
 - More comprehensive error messages
-- Performance improvements 
+- Performance improvements
+- JSON schema validation 
